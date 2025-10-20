@@ -36,13 +36,13 @@ The goal of this project was to:
 
 ---
 
-## 📚 Dataset
+## Dataset
 This project uses a publicly available spam dataset such as the [UCI SMS Spam Collection Dataset](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection) or similar email dataset.  
 Make sure to replace or link your data source here if you used another one.
 
 ---
 
-## 👨‍💻 Author
+## Author
 **Arvin Ayati**  
 📍 University of California, Berkeley  
 🔗 [LinkedIn](https://linkedin.com/in/arvin-ayati-6b4288265/) | [GitHub](https://github.com/Hire-Arvin)
