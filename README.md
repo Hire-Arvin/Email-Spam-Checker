@@ -31,8 +31,7 @@ The goal of this project was to:
 ---
 
 ## Results
-- Achieved **X% accuracy** on the test set (replace with your actual result).  
-- Naïve Bayes performed best on text-based features due to its efficiency with sparse data.  
+- Achieved **89% accuracy** on the test set (replace with your actual result).  
 - Visual analysis revealed strong separation between spam and non-spam clusters after TF-IDF transformation.
 
 ---
@@ -46,6 +45,6 @@ Make sure to replace or link your data source here if you used another one.
 ## 👨‍💻 Author
 **Arvin Ayati**  
 📍 University of California, Berkeley  
-🔗 [LinkedIn](https://linkedin.com/in/your-link) | [GitHub](https://github.com/yourusername)
+🔗 [LinkedIn](https://linkedin.com/in/arvin-ayati-6b4288265/) | [GitHub](https://github.com/Hire-Arvin)
 
 ---
