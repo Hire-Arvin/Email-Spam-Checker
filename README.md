@@ -37,8 +37,7 @@ The goal of this project was to:
 ---
 
 ## Dataset
-This project uses a publicly available spam dataset such as the [UCI SMS Spam Collection Dataset](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection) or similar email dataset.  
-Make sure to replace or link your data source here if you used another one.
+This project uses a publicly available spam dataset from spam assasin https://spamassassin.apache.org/old/publiccorpus/
 
 ---
 
