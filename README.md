@@ -1,38 +1,45 @@
-# Email Spam Classification Model
+# Spam Email Classification
 
-This project builds a **machine learning model** to predict whether an email is *spam* or *not spam* based on its content.  
-Using text preprocessing, feature extraction, and classification algorithms, the model demonstrates how natural language processing (NLP) techniques can be applied to real-world email data.
+This project builds a **supervised machine learning model** to classify email messages as **spam or ham (not spam)** using text-based features and logistic regression.  
+The dataset, derived from the **SpamAssassin public corpus**, was cleaned, vectorized, and modeled to explore practical applications of **natural language processing (NLP)** and text classification.
 
 ---
 
 ## Project Overview
-
-The goal of this project was to:
-- Clean and preprocess raw email text data.
-- Convert textual information into numerical features using **TF-IDF vectorization**.
-- Train and evaluate multiple machine learning models to classify emails as spam or not spam.
-- Analyze performance through key metrics and visualizations.
+The goal of this project was to develop an interpretable model that accurately distinguishes spam from legitimate email by:
+- Cleaning and preprocessing raw email text.  
+- Engineering features such as word frequency, capitalization ratio, punctuation density, and HTML tags.  
+- Applying **TF-IDF vectorization** for numerical representation.  
+- Training and evaluating multiple models for optimal performance.
 
 ---
 
 ## Key Features
-- **Text Preprocessing:** tokenization, stop-word removal, and vectorization.  
-- **Machine Learning Models:** Logistic Regression, Naïve Bayes, and Random Forest.  
-- **Model Evaluation:** accuracy, precision, recall, F1 score, and confusion matrices.  
-- **Visualization:** Seaborn plots for model performance comparison.
+- **Text Preprocessing:** tokenization, stop-word removal, and TF-IDF feature extraction.  
+- **Feature Engineering:** numerical signals for HTML presence, punctuation ratio, and capitalization use.  
+- **Modeling:** compared Logistic Regression, Naïve Bayes, and Random Forest classifiers.  
+- **Validation:** used 10-fold cross-validation, ROC analysis, and confusion matrices to assess model balance and reliability.  
 
 ---
 
 ## Tech Stack
 **Languages:** Python  
-**Libraries:** Pandas, Scikit-learn, NumPy, Seaborn, Matplotlib  
+**Libraries:** scikit-learn, Pandas, NumPy, Seaborn, Matplotlib  
 **Tools:** Jupyter Notebook  
 
 ---
 
 ## Results
-- Achieved **89% accuracy** on the test set (replace with your actual result).  
-- Visual analysis revealed strong separation between spam and non-spam clusters after TF-IDF transformation.
+- Achieved **~87% validation accuracy** and **86–89% consistency across 10-fold CV**.  
+- Logistic Regression provided the best generalization and interpretability.  
+- Feature analysis revealed strong spam signals in capitalization, HTML content, and specific token frequency.
+
+---
+
+## Future Improvements
+- Implement ensemble methods (e.g., XGBoost) for higher accuracy.  
+- Experiment with word embeddings (Word2Vec, BERT) for richer semantic representation.  
+- Deploy as a Streamlit app for interactive email classification demos.
 
 ---
 
